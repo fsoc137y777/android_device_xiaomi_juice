@@ -71,10 +71,6 @@ PRODUCT_PACKAGES += \
    vendor.qti.hardware.bluetooth_audio@2.0.vendor \
    vendor.qti.hardware.btconfigstore@1.0.vendor
 
-# GCam-Go
-PRODUCT_PACKAGES += \
-    GCam
-
 # Display
 PRODUCT_PACKAGES += \
     libdisplayconfig \
@@ -93,10 +89,6 @@ PRODUCT_PACKAGES += \
 # Fstab
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.default:$(TARGET_COPY_OUT_RAMDISK)/fstab.default
-
-# Google Photos
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/pixel_2016_exclusive.xml
 
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1 \
