@@ -213,8 +213,6 @@ PRODUCT_PACKAGES += \
     CellBroadcastReceiverResCommon \
     FrameworksResCommon \
     FrameworksResTarget \
-    GmsTelecommOverlay \
-    GmsTelephonyOverlay \
     NotchBarKiller \
     SystemUIResCommon \
     TelecommResCommon \
